@@ -41,6 +41,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SofosoftShop.Model\SofosoftShop.Model.csproj">
+      <Project>{091926f7-5d44-47dc-a861-0eb8e5679e31}</Project>
+      <Name>SofosoftShop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SofosoftShop.Web\SofosoftShop.Web.csproj">
+      <Project>{d76f3242-c766-41a7-8a14-958100abc7c1}</Project>
+      <Name>SofosoftShop.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
